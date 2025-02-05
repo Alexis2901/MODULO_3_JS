@@ -1,0 +1,2 @@
+# TIPOS DE DATOS
+En esta primer clase se implemento el uso de código para imprimir en la consola los distintos tipos de datos que existen en JS, principalmente datos primitivos (string, number, booleanos, undefined, null, symbol, bigint) y otros tipos de datos que incluyen el uso de funciones, entre otros más, como se muestra en el presente trabajo.
