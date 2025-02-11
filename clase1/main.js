@@ -18,7 +18,7 @@ console.log(typeof numerogrande);
 
 //DATOS DE REFERENCIA (OTROS)
 let persona = {
-    nombre: "ivan",
+    nombre: "ivan", 
     edad: 23,
     nacionalidad: "Mexicano",
 };
