@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="información">
+        <h1>Generador de contraseñas</h1>
+        <p> Este sitio te permite crear una contraseña con caracteres aleatorios (mayúsculas, minúsculas, números y símbolos) tomando en cuenta como mínimo 8 caracteres hasta 24 para generar diferentes contraseñas. Puedes seleccionar que caracteres deseas que incluya en el checklist del generador. </p>
+    </div>
+    <div class="contenedor">
+        <h2>Generar contraseñas</h2>
+        <div class="caja-contraseña">
+            <input type="text" id="contraseña" readonly>
+            <button onclick="copiarContraseña()">📄</button>
+        </div>
+        <div class="seguridad">
+            Seguridad: <span id="nivelSeguridad">NO APLICA</span>
+        </div>
+        <div class="configuracion">
+            <label for="longitud">Longitud: <span id="valorLongitud">10</span></label>
+            <input type="range" id="longitud" min="8" max="24" value="10">
+            <label><input type="checkbox" id="mayusculas" checked> Incluir Mayúsculas</label>
+            <label><input type="checkbox" id="minusculas" checked> Incluir Minúsculas</label>
+            <label><input type="checkbox" id="numeros" checked> Incluir Números</label>
+            <label><input type="checkbox" id="simbolos"> Incluir Símbolos</label>
+        </div>
+        <button id="generar">Generar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
