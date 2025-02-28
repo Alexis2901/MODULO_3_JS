@@ -1,0 +1,2 @@
+## Proyecto final.
+Desarrollé una página web sobre música utilizando HTML y CSS, con un sistema de inicio de sesión que registra y almacena a los usuarios recientes para agilizar su acceso. La plataforma incluye un elemento visual en video y una caja de comentarios interactiva, donde los usuarios pueden escribir, publicar, eliminar y guardar comentarios mediante JavaScript, aprovechando el uso de objetos, funciones y arrays. Además, implementé una función de cierre de sesión que redirige a los usuarios a la pantalla de inicio de sesión.

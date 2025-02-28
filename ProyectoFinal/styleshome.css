@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin-left: 180px;
+    overflow-x: hidden;
+}
+
+.nav-container {
+    width: 180px; 
+    height: 100vh;
+    background-color: #38040E;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+nav ul li {
+    width: 100%;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 20px;
+    width: 150px;
+    height: 50px;
+    background-color: #640d14;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+nav ul li a:hover {
+    background-color: rgb(128, 4, 4);
+    transform: scale(1.05);
+}
+
+#logout {
+    background-color: rgb(238, 13, 13);
+}
+
+#logout:hover {
+    background-color: rgb(145, 9, 9);
+}
+
+
+.music-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5%;
+}
+.music-container h1 {
+    background-color: #3e0202;
+    color: white;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+}
+iframe {
+    width: 50%;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+    margin-left: 200px;
+}
+
+.artist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 200px;
+}
+
+.titulo-video {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.artist-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.imagen-artista {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-artista {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.suscriptores-artista {
+    font-size: 14px;
+    color: gray;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-left: 2%;
+    
+}
+
+textarea {
+    margin-top: -40px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    height: 10vh;
+}
+
+button {
+    width: 40%;
+    height: 5vh;
+    margin-top: 7px;
+    margin-left: 30%;
+    cursor: pointer;
+    border: none;
+    background-color: #640D14;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #800E13;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+}
+
+.comentario {
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+    color: black;
+    font-size: 14px;
+}
+
+.comentario p{
+    font-size: 8px;
+    line-height: 0.5px;
+    color: #423f3f;
+    margin-bottom: -10px;
+}
+
+.user-image{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.delete-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    width: 15%;
+    background-color: #640D14;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    align-self: flex-end;
+
+}
+
+.delete-button:hover {
+    background-color: #800E13;
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.form-container {
+    width: 50%;
+    background-color: #38040E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    width: 50%;
+    background: url(https://i.pinimg.com/736x/15/87/d2/1587d25084bc7448080f77dc125f0e11.jpg) no-repeat center center/cover;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #250902;
+    padding: 20px;
+    width: 30vw;
+    border-radius: 15px;
+    color: white;
+}
+
+label {
+    font-size: 12px;
+}
+
+input {
+    width: 95%;
+    padding: 2px;
+    margin: 5px 0px;
+}
+
+button {
+    width: 40%;
+    height: 5vh;
+    margin-top: 7px;
+    margin-left: 30%;
+    cursor: pointer;
+    border: none;
+    background-color: #640D14;
+    color: white;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #800E13;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+}
+
+.error {
+    font-size: 10px;
+    color: rgb(253, 253, 253);
+}
+
+.recent-users {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;  
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    background: #250902;
+    padding: 12px;
+    border-radius: 10px;
+    width: 120px; 
+    box-shadow: 0 4px 6px #EC2A37;
+    color: white;
+    text-align: center;
+}
+
+.user-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 8px; 
+}
+
+.user-card p {
+    margin: 5px 0;
+}
+
+.user-card button {
+    width: 80%;
+    height: 3vh;
+    margin-top: 1px;
+    margin-left: 2%;
+    background-color: #640D14;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.user-card button:hover {
+    background-color: #800E13;
+    box-shadow: 0 4px 6px rgba(236, 3, 34, 0.986);
+}

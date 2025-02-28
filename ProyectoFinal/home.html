@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleshome.css">
+    <title>Home</title>
+</head>
+<body>
+    <section class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="#" id="logout">◀ Cerrar Sesión</a></li>
+                <li><a href="#">◀ Servicios</a></li>
+                <li><a href="#">◀ Contacto</a></li>
+                <li><a href="#">◀ Acerca de</a></li>
+            </ul>
+        </nav>
+    </section>
+    
+</section>
+
+    <section class="music-container">
+             
+
+        <h1>Videos en tendencia 🔥</h1>
+        <section class="description-container">
+            <h2>Tendencias 🎶</h2>
+            <p>Descubre el nuevo video musical de Lady Gaga "Abracadabra", que se encuentra en el top 1 de videos más reproducidos en nuestra plataforma.</p>
+        </section>
+
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/cVYsHZcaBUw?si=j0d_UhUptG_4zwa2" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    
+        <section class="artist-container">
+            <h2 class="titulo-video">Lady Gaga - Abracadabra (Official Music Video)</h2>
+            
+            <div class="artist-info">
+                <img src="https://www.billboard.com/wp-content/uploads/2025/01/Lady-Gaga-cr-Frank-Lebon-press-2025-billboard-1548.jpg" alt="Imagen del artista" class="imagen-artista">
+                <div class="text-info">
+                    <span class="nombre-artista">Lady Gaga</span>
+                    <span class="suscriptores-artista">26,9 M de suscriptores</span>
+                </div>
+            </div>
+        </section>
+    
+        <section class="comment-container">
+            <h2>Comentarios</h2>
+            <p id="user-info"></p>
+            <textarea placeholder="Publica un comentario" id="comment"></textarea>
+            <button onclick="postComment()">Publicar</button>
+            <section id="comment-section"></section>
+        </section>
+    </section>
+    
+    <script src="home.js"></script>
+    <link rel="stylesheet" href="styleshome.css">
+
+</body>
+</html>
